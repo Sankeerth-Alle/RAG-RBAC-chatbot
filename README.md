@@ -1,6 +1,6 @@
-# FinSolve RBAC-RAG Chatbot
+# RBAC-RAG Chatbot
 
-A small academic demonstration of role-based retrieval with FastAPI, LangGraph, Chroma, Gemini, and Streamlit.
+A demonstration of role-based retrieval with FastAPI, LangGraph, Chroma, Gemini, and Streamlit.
 
 ## Features
 
@@ -24,8 +24,6 @@ uv sync
 cd ..\frontend
 uv sync
 ```
-
-`.env` is ignored by Git. Never put real secrets in source files or frontend code.
 
 ## Build the Vector Database
 
