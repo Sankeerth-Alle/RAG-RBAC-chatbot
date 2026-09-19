@@ -1,0 +1,11 @@
+[project]
+name = "frontend"
+version = "0.1.0"
+description = "Chat UI for RAG application"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.46.1",
+    "requests>=2.32.0",
+    "python-dotenv>=1.1.1",
+]
